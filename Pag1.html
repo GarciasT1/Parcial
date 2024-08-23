@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title></title>
+</head>
+<style>
+     header {
+            background-color: #333;
+            padding: 20px;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-sizing: border-box;
+        }
+
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+</style>
+<body>
+    <form action="">
+        <header>
+            <div class="logo">
+                <a href="#"><img src="C:\Users\2516672023\Desktop\HTML\logo.png" alt="Logo" style="height: 60px;"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html#"><img src="C:\Users\2516672023\Desktop\HTML\home.png" alt="Principal" style="height: 40px;"></a></li>
+                    <li><a href="Pag1.html"><img src="C:\Users\2516672023\Desktop\HTML\Contactos.png" alt="Contáctanos" style="height: 40px;"></a></li>
+                    <li><a href="Pag3.html"><img src="C:\Users\2516672023\Desktop\HTML\Informacion.png" alt="Informativo" style="height: 40px;"></a></li>
+                    <li><a href="Pag2.html"><img src="C:\Users\2516672023\Desktop\HTML\datos.png" alt="Datos" style="height: 40px;"></a></li>
+                </ul>
+            </nav>
+        </header>
+        <table>
+            <tr>
+                <td>Nombre: </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Apellido: </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Edad:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Sexo:</label><br>
+                    <input type="radio"id="Mujer" name="Sexo" value="mujer">
+                    <label>Mujer</label><br>
+                    <input type="radio"id="Hombre" name="Sexo" value="hombre">
+                    <label>Hombre</label>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Nivel de estudio:</label>
+                    <select name="nivel" required>
+                        <option value="1">Primaria</option>
+                        <option value="2">Secundaria</option>
+                        <option value="3">Tecnico</option>
+                        <option value="4">Universitaria</option>
+
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Usuario:</td>
+                <td><Input type="text"></Input></td>
+            </tr>
+            <tr>
+                <td>Contraseña:</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>Confirmacion de contraseña:</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td><input type="button"value="Enviar"></td>
+            </tr>
+
+
+
+
+
+        </table>
+    </form>
+</body>
